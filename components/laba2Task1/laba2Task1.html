@@ -1,0 +1,109 @@
+<div id="newId">
+	<div id="" class="back" ng-click="goHome()">Вернуться назад</div>
+    <h1>Циклические алгоритмы</h1>
+	<h3>Пример написания программы:</h3>
+	<div>Введите значение X0: 
+        <!-- onchange="console.log(this.value)" -->
+       	<input 
+       		id='input_x' 
+       		class='newClass' 
+       		type='text'
+         	placeholder='Введите x'>
+       	</input>
+        (1)
+    </div>
+    <div>Введите значение Xk: 
+        <input 
+            id='input_y' 
+            class='newClass' 
+            type='text'
+            placeholder='Введите y'>
+        </input>
+        (4)
+    </div>
+    <div>Введите значение Dx: 
+        <input 
+            id='input_z' 
+            class='newClass' 
+            type='text'
+            placeholder='Введите z'>
+        </input>
+        (0.2)
+    </div>
+    <div>Введите значение A : 
+        <!-- onchange="console.log(this.value)" -->
+        <input 
+            id='input_q' 
+            class='newClass' 
+            type='text'
+            placeholder='Введите q'>
+        </input>
+        (0.75)
+    </div>
+    <h5>Результат выполнения программы:</h5>
+
+    <div id='inline__result'> 
+        <p>Результат X = </p> <p id="result_u"></p>(2.4)
+    </div> 
+    <div id='inline__result'> 
+        <p>Результат Y = </p> <p id="result_u2"></p>(0.656601553015425)
+    </div> 
+    <div class="dangerous" ng-click="calc()">Выполнить</div>
+
+    <p>Комментарий: вставляй xk так как в примере, через шаг</p>
+    <p>Ошибка в формуле?</p>
+
+	<h3>Индивидуальное задание:</h3>
+    <h4>5 Вариант</h4>
+    <p>y = x^4 + cos(2+x^3-d);</p>
+
+	<div>Введите значение X0: 
+        <!-- onchange="console.log(this.value)" -->
+       	<input 
+       		id='input_x2' 
+       		class='newClass' 
+       		type='text'
+         	placeholder='Введите x'>
+       	</input>
+        (4.6)
+    </div>
+    <div>Введите значение Xk: 
+        <input 
+            id='input_y2' 
+            class='newClass' 
+            type='text'
+            placeholder='Введите y'>
+        </input>
+        (5.8)
+    </div>
+    <div>Введите значение Dx: 
+        <input 
+            id='input_z2' 
+            class='newClass' 
+            type='text'
+            placeholder='Введите z'>
+        </input>
+        (0.2)
+    </div>
+    <div>Введите значение d : 
+        <!-- onchange="console.log(this.value)" -->
+        <input 
+            id='input_q2' 
+            class='newClass' 
+            type='text'
+            placeholder='Введите q'>
+        </input>
+        (1.3)
+    </div>
+    <h5>Результат выполнения программы:</h5>
+
+    <div id='inline__result'> 
+        <p>Результат X = </p> <p id="result_u21"></p>
+    </div> 
+    <div id='inline__result'> 
+        <p>Результат Y = </p> <p id="result_u22"></p>
+    </div> 
+    <div class="dangerous" ng-click="calc2()">Выполнить</div>
+
+</div>
+

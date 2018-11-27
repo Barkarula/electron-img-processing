@@ -4,8 +4,8 @@ let win;
 
 let boot = () => {
 	win = new BrowserWindow({
-		width: 1400, //700
-		height: 800, //500
+		width: 1200, //700
+		height: 700, //500
 		frame: false
 	});
 
